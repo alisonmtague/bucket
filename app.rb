@@ -1,6 +1,6 @@
 require 'sinatra'
 require 'sinatra/activerecord'
-# require_relative './models/item'
+require_relative './models/item'
 require_relative './config/environments'
 
 #setting up the index route
